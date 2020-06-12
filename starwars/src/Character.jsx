@@ -1,4 +1,6 @@
 import React from "react"
+import {FlexContainer, CharacterStyles} from "./ComponentStyles"
+
 
 const Character = (props) => {
     // console.log(props)
@@ -7,10 +9,10 @@ const Character = (props) => {
     const {name, birth_year} = character
 
     return (
-        <div>
-            <span>{name}</span>
-            <span>{birth_year}</span>
-        </div>
+        <FlexContainer>
+            <CharacterStyles>{name}</CharacterStyles>
+            <CharacterStyles>Birth Date: {birth_year}</CharacterStyles>
+        </FlexContainer>
     )
 }
 
