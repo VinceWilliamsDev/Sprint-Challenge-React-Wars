@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 export const ContainerStyle = styled.div`
     padding: 0, 7%;
-    margin: 0 20%;
+    margin: 0 30%;
     box-sizing: border-box;
 `
 
