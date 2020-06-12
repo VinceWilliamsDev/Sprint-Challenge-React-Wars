@@ -3,10 +3,9 @@ import styled from "styled-components"
 
 
 export const ContainerStyle = styled.div`
-    padding: 7%;
+    padding: 0, 7%;
     margin: 0 20%;
     box-sizing: border-box;
-    background-color: rbga(0,0,0,.5);
 `
 
 export const FlexContainer = styled.div`
