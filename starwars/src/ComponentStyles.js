@@ -14,6 +14,7 @@ export const FlexContainer = styled.div`
     border: 2px solid black;
     margin: 10px;
     box-sizing: border-box;
+    background-color: #d5d4d0;
 `
 
 export const CharacterStyles = styled.p`
